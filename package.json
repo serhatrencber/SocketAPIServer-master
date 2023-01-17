@@ -1,0 +1,34 @@
+{
+  "name": "SocketAPI",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": " Node-based API and SocketIO server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  
+  },
+  "keywords": [
+    "api",
+    "node",
+    "api-server",
+    "express",
+    "socket",
+    "hardware"
+  ],
+  "author": "Serhat Ömer Rencber",
+  
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "modules": "^0.4.0",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12",
+    "postcss-cli": "^9.1.0"
+  }
+}
